@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS\styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ed4eb87834.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Freehand&family=Fuzzy+Bubbles:wght@400;700&family=Montserrat:wght@300;900&family=Nunito+Sans&family=Prompt&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar  navbar-dark navbar-expand-lg ">
+       <a class="navbar-brand " href="index.html" style="font-family:Fuzzy Bubbles ; font-weight: 700;" >HK</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+       <ul class="navbar-nav ms-auto ">
+        <li class="nav-item">
+            <a class="nav-link" href="Resume\Hammad's Resume.pdf">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Projects</a>
+        </li>
+        <li class="nav-item">
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+                <ul class="dropdown-menu bounceIn">
+                  <li><a class="dropdown-item" href="mailto:hammadkhalid2480@gmail.com"><i class="fa-regular fa-envelope"></i> Mail</a></li>
+                  <li><a class="dropdown-item" href="https://linkedin.com/in/hk227"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/hammad_2480/"><i class="fa-brands fa-instagram fa-1.5x "></i> Instagram</a></li>
+                </ul>
+              </div> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+        </li>
+
+       </ul>
+    </div>
+
+    </nav>
+    <section class="fadeInUp proj">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500" >
+        <div class="carousel-inner">
+          <div class="firstproject carousel-item active">
+            <h1 class="projectheading">IOT Based Irrigation System</h1>
+            <img class="IOT" src="Images\maxresdefault.jpg" alt="">
+            <p class="p1">This was my final year project and the cool thing about this project was our totally self made moisture sensors that are accurate and precise to the one available in market. Each sensor uses a 3D printed body, a microcontroller and mini solar cell for charging of sensor battery. Electronic walves connected to relays are used to water the desired row in the field. The whole project was fully automated and the numerics and graphs were shown on the self designed web page. Other sensors like humidity and temprature sensor are also used to monitor the temprature and humidity of the air. The data of all the sensors were stored on cloud upto three months. The purpose of the project is to reduce water loss and labour cost.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">2D-CNC Machine</h1>
+            <img class="IOT" src="Images\1275px-Cmpe244_plotter_XY.jpg" alt="">
+            <p class="p1">This was my junior year project. Our 2D plotter was capable of drawing computer processed binary images on a page. Arduino (UNO) microcontroller was used to control movements of the stepper motors along X-axis and Y-axis. Solenoid coil was used to control moment of our plotting pen on Z-axis. It basically works with two stepper motors and a solenoid, wherein the robot plots the input given from the computer on the paper. The Arduino microcontroller was used to control the movements of stepper motors. Solenoid was used for raising the pen up and down vertically. Due to cost limitations, we couldn’t use position sensor in our plotter, hence we had to use physical switches.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">Digital Clock</h1>
+            <img class="IOT" src="Images\bigttl_1721.jpg" alt="">
+            <p class="p1">This was a digital logic design project that was comprised of total of six counters. Two for each hours, minutes and seconds.
+              For each minutes and seconds two counters were used. One counts from 0-9 and other from 0-5 in order to make 59 minutes or 59 seconds. Each counter gets reset after reaching desired number. For hours section one couner counts from 0-1 while other was a 0-9 counter and the combination of two was responsible for 12 hour format. Alarm was also implemented in the clock. Overall the project was very budget freindly and used components like seven segment displays, 555 timer IC, 7493 counter IC, logic gates IC's, bread boards and a 5V power supply.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">Temperature monitoring door system</h1>
+            <img class="IOT" src="Images\TMD.jpg" alt="">
+            <p class="p1">This project used temprature sensors, two mini servo motors, Arduino, 16x2 LCD display and bread board as the main components.
+              The project purose was to monitor the temprature of individual and compare the temprature with the threshold temprature that is set within microcontroller. The servo motors opens or closes the door based on the individual temprature.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">MOSFET constant current source</h1>
+            <img class="IOT" src="Images\lmn.png" alt="">
+            <p class="p1">The purpose of this project was to achieve constant current source using 2N7000 MOSFET's by studying and chracterizing IV chracteristics of MOSFET, operation of current mirrors, Basic and Wilson current mirrors.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">Patch antenna designing using COMSOL</h1>
+            <img class="IOT" src="Images\009.jpg" alt="">
+            <p class="p1">The performance and advantages of microstrip patch antennas such as low 
+              weight, low profile, and low cost made them the perfect choice for 
+              communication systems engineers. They have the capability to integrate with 
+              microwave circuits and therefore they are very well suited for applications such 
+              as cell devices, WLAN applications, navigation systems and many others 
+              In this project; a compact rectangular patch antenna was designed using COMSOL software that is used for 
+              GPS devices at 1.57542 GHz, and for a satellite TV signal at 11.843 GHz and 
+              11.919 GHz.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">Frequency detector using MATLAB</h1>
+            <img class="IOT" src="Images\screenshot.jpg" alt="">
+            <p class="p1">This was one of my favirote project using MATLAB. The project uses the recorded audio signal and if the frequency of the signal is higher than the specified frequency range then it reveals a person gender as female and male if the frequency is in the range.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="projectheading">LabView and Arduino fire detection system</h1>
+            <img class="IOT" src="Images\abc.png" alt="">
+            <p class="p1"> This project  describes the  design and  development of  a fire detection  and alert  system. Temperature  and flame  sensors are  used to indicate the  occurrence of fire.  This work  consists of  two parts, which  are transmitter  and receiver,  both  using  ZigBee  wireless technology.  Arduino Uno is used as the microcontroller at the transmitter part to control the sensor nodes and give alert  when over temperature  and flame are detected. At the transmitter, the collected data  from the sensors are transmitted by an XBee module operated as  router node.  At the receiver  side, an  XBee coordinator module which is attached to a computer using USB to serial communication captured the data for further processing. In addition, an interactive and user-friendly Graphical User Interface (GUI) is developed. LabVIEW software is used  to design  the GUI  which  displays  and  analyze the  possibility of  fire happening.  The  system  can  display  the  fire  location  and  provides  early warning to allow occupants to escape the building safely.</p>
+          </div>
+          
+        </div>
+        <button class="mybtn carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="mybtn carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    </body>
+    </html>

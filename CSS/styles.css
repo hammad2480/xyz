@@ -1,0 +1,357 @@
+body{
+
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 900;
+
+}
+h3{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+p{
+    color: white;
+    font-family: Prompt;
+}
+#profile{
+    
+    color: white;
+    
+   
+}
+.navbar{
+    background-color: black;
+    fill: black;
+   
+}
+
+.nav-link{
+    margin-left:25px ;
+    margin-right:25px ;
+}
+.nav-link:hover{
+    color: rgb(208, 156, 12);
+}
+.navbar-brand:hover{
+    color: rgb(208, 156, 12) ;
+
+}
+.navbar-brand{
+    margin-left:3.5% ;
+}
+
+.navbar-nav{
+    margin-right:15% ;
+}
+.dropdown-menu{
+    background-color: black;
+    margin-left: 12px;
+    margin-top:0px ;
+}
+.dropdown-item{
+    color:grey;
+    background-color: black;
+
+}
+.SmallHeading{
+    margin-left:8% ;
+    margin-top: 15%;
+    font-size:30px ;
+    margin-bottom: 5% ;
+
+}
+.BigHeading{
+    margin-left: 7%;
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+}
+.aboutbigheading{
+    margin-top:5% ;
+    margin-left: 7%;
+    margin-right: 15%;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+
+}
+.bio{
+    margin-left:7% ;
+    margin-top:5% ;
+    font-size:22px ;
+    line-height:1.5 ;
+}
+.aboutbio{
+    margin-left:7% ;
+    margin-right:15% ;
+    margin-top:5% ;
+    font-size:20px ;
+    font-weight: lighter;
+    line-height:1.5 ;
+    color: white;
+
+}
+.learnmore{
+    color:rgb(208, 156, 12) ;
+}
+.learnmore:hover{
+    color:rgb(208, 156, 12) ;
+
+}
+
+.profilepic{
+    width: 28%;
+    margin-top:15% ;
+    border-radius: 100%;
+    margin-left:10% ;
+    position: fixed;
+    bottom: 140px;
+    right: 220px;
+     
+    
+
+}
+.IOT{
+    width: 20%;
+    border-radius: 100%;
+}
+.carousel{
+    margin-top:3% ;
+    text-align: center;
+}
+.projectheading{
+    margin-bottom:50px ;
+}
+.p1{
+    margin:4% 20% ;
+    line-height:2 ;
+
+}
+#skill1{
+    background-image: linear-gradient(#16213E, rgb(0, 0, 0));
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-bottom:0px ;
+    margin-right: 0px;
+    
+}
+.computer{
+    width:50% ;
+    margin-top:60px ;
+    margin-left:30% ;
+    
+}
+.Anothercomputer{
+    position: relative;
+    top: 80px;
+    width:65% ;
+
+}
+.skill1heading
+{
+    font-size: 50px;
+}
+.skill1bio{
+    line-height:2 ;
+    margin-right:60px ;
+}
+.skillsimages{
+    width: 60%;
+    margin-top:15% ;
+    border-radius: 100%;
+    margin-left:10% ;
+    position: relative;
+    bottom: 70px;
+    
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+    .bounceIn {
+        -webkit-animation-name: bounceIn;
+        animation-name: bounceIn;
+        -webkit-animation-duration: .75s;
+        animation-duration: .75s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes bounceIn {
+        0%, 20%, 40%, 60%, 80%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+        }
+        20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+        }
+        40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+        }
+        60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+        }
+        80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes bounceIn {
+        0%, 20%, 40%, 60%, 80%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+        }
+        20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+        }
+        40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+        }
+        60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+        }
+        80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        } 
+
+@media screen and (max-width:991px)
+{
+    
+    .profilepic{
+        width:50% ;
+        margin-bottom:50px;
+        margin-right:35px ;
+        position: static;
+    }
+    #profile{
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 50px;
+    }
+    .bio{
+        line-height:2 ;
+        margin-left:50px ;
+        margin-right:30px ;   
+    }
+    #about{
+        text-align: center;
+    }
+
+    .aboutbigheading{
+        margin-left:70px ;
+        margin-right:70px ;
+        
+
+    }
+    .aboutbio{
+        margin-left:70px ;
+        margin-right:70px ;
+
+    }
+    .IOT{
+        width:35% ;
+    }
+    #skill1{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .computer{
+        width:60% ;
+        margin-left: 9%;
+    }
+    .skill1bio{
+      margin-right:60px ;
+      margin-left:60px ;
+      margin-top: 40px;
+      margin-bottom: -50px;
+    }
+    .skill1heading{
+        margin-right:30px ;
+        margin-left:30px ;
+        margin-top:20px ;
+      }
+    .projectheading{
+        margin-left:50px ;
+        margin-right:50px ;
+    }
+    .skillsimages{
+        width: 50%;
+        margin-right:40px ;
+        position: static;
+        
+        
+
+    }
+    #about{
+        margin-right:15px ;
+        margin-left:15px ;
+    }
+    .hi{
+        margin-right: 5%;
+    }
+    
+}
+
